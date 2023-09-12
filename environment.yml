@@ -1,0 +1,11 @@
+name: linear-classifier
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.9
+  - pip
+  - mkl < 2022 # Arm Architecture
