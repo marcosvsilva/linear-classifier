@@ -9,3 +9,5 @@ dependencies:
   - python=3.9
   - pip
   - mkl < 2022 # Arm Architecture
+
+  - python-dotenv=0.21
