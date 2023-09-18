@@ -11,3 +11,5 @@ dependencies:
   - mkl < 2022 # Arm Architecture
 
   - python-dotenv=0.21
+
+  - sklearn
