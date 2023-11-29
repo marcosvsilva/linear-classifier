@@ -5,10 +5,11 @@ channels:
   - defaults
 
 dependencies:
-  # Python
   - python=3.9
   - pip
   
-  - python-dotenv=0.21
-
-  - sklearn
+  - pandas
+  - scikit-learn
+  
+  - pip:
+    - requests
