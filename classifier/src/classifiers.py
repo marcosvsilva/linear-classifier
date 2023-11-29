@@ -62,11 +62,3 @@ def tracking():
 
     print("Model accuracy: %.2f" % (acc*100))
 
-def projects():
-    dataset = pd.read_csv('https://gist.githubusercontent.com/guilhermesilveira/1b7d5475863c15f484ac495bd70975cf/raw/16aff7a0aee67e7c100a2a48b676a2d2d142f646/projects.csv')
-
-    dataset["target"] = dataset["unfinished"]
-    dataset = dataset.drop("unfinished", axis=1)
-    dataset.target = dataset.target.map({0: 1, 1: 0})
-
-    print(dataset)
