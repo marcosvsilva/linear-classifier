@@ -20,3 +20,7 @@ To get started with this linear classification model, follow these steps:
 
    ```shell
    git clone https://github.com/marcosvsilva/linear-classifier.git
+
+## License
+
+Licensed under the [MIT license](https://mit-license.org/). 
