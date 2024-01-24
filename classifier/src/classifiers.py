@@ -61,4 +61,3 @@ def tracking():
     acc = accuracy_score(test_y, predict)
 
     print("Model accuracy: %.2f" % (acc*100))
-
