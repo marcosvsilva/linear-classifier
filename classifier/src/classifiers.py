@@ -29,14 +29,8 @@ def animals():
     print(model.predict([test]))
 
 def tracking():
-    file = "tracking.csv"
-    if not os.path.exists(file):
-        dataset_link = "https://gist.githubusercontent.com/guilhermesilveira/2d2efa37d66b6c84a722ea627a897ced/raw/10968b997d885cbded1c92938c7a9912ba41c615/tracking.csv"
-
-        if download_csv(dataset_link, file):
-            print('Download csv!')
-
-    data = pd.read_csv(file)
+    dataset_link = "https://gist.githubusercontent.com/guilhermesilveira/2d2efa37d66b6c84a722ea627a897ced/raw/10968b997d885cbded1c92938c7a9912ba41c615/tracking.csv"
+    data = pd.read_csv(dataset_link)
 
     map = {
         "home": "index",
